@@ -1,4 +1,5 @@
 import { useGSAP } from "@gsap/react";
+import { useMemo } from "react";
 import AnimatedHeaderSection from "../components/AnimatedHeaderSection";
 import Marquee from "../components/Marquee";
 import { socials } from "../constants";
@@ -7,13 +8,21 @@ import gsap from "gsap";
 const Contact = () => {
   const text = `Got a question, how or project Idea?
     WE’D love to hear from you and discus further!`;
-  const items = [
-    "just imagin, I code",
-    "just imagin, I code",
-    "just imagin, I code",
-    "just imagin, I code",
-    "just imagin, I code",
-  ];
+  const items = useMemo(
+    () => [
+      "let's collaborate",
+      "let's build something great",
+      "let's collaborate",
+      "get in touch",
+      "let's create magic",
+      "let's collaborate",
+      "let's innovate together",
+      "reach out to me",
+      "let's collaborate",
+      "let's make it happen",
+    ],
+    []
+  );
   useGSAP(() => {
     gsap.from(".social-link", {
       y: 100,
@@ -30,9 +39,9 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="flex flex-col justify-between min-h-screen bg-black"
+      className="flex flex-col justify-between min-h-screen bg-black py-10 md:py-20"
     >
-      <div>
+      <div className="flex-1">
         <AnimatedHeaderSection
           subTitle={"You Dream It, I Code it"}
           title={"Contact"}

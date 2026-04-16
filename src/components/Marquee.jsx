@@ -124,7 +124,7 @@ const Marquee = ({
       reversed: reverse,
     });
 
-    Observer.create({
+    const observer = Observer.create({
       onChangeY(self) {
         let factor = 2.5;
         if ((!reverse && self.deltaY < 0) || (reverse && self.deltaY > 0)) {
@@ -140,8 +140,11 @@ const Marquee = ({
           .to(tl, { timeScale: factor / 2.5, duration: 1 }, "+=0.3");
       },
     });
-    return () => tl.kill();
-  }, [items, reverse]);
+    return () => {
+      tl.kill();
+      observer.kill();
+    };
+  }, [reverse]);
   return (
     <div
       ref={containerRef}

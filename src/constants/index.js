@@ -20,58 +20,58 @@ export const servicesData = [
     ],
   },
   {
-    title: "DevOps & Cloud Solutions",
+    title: "AI & Machine Learning",
     description:
-      "Deploying software shouldn't be a gamble. I automate infrastructure, enforce security, and leverage cloud platforms (AWS/Azure) to keep your app running smoothly—24/7, at any scale.",
+      "Developing intelligent systems using machine learning, data processing, and AI integrations to automate workflows and deliver smarter products.",
     items: [
       {
-        title: "CI/CD Pipelines",
+        title: "ML Model Development",
         description: "(GitHub Actions, Docker, Kubernetes)",
       },
       {
-        title: "Server Management ",
+        title: "Data Processing",
         description: "(Linux, Nginx, Load Balancing)",
       },
       {
-        title: "Performance Tuning",
+        title: "AI Integration",
         description: "(Caching, Compression, Lighthouse 90+ Scores)",
       },
     ],
   },
   {
-    title: "Security & Optimization",
+    title: "System Architecture & Scalability",
     description:
-      "Slow or hacked apps destroy trust. I harden security (XSS/SQLI protection, OAuth) and optimize bottlenecks so your app stays fast, safe, and scalable as you grow.",
+      "Designing robust system architectures that scale efficiently, remain secure under load, and support long-term product growth.",
     items: [
       {
-        title: "Code Audits",
+        title: "Scalable Architecture",
         description: "(Refactoring, Tech Debt Cleanup)",
       },
       {
-        title: "Pen Testing",
+        title: "Load Optimization",
         description: "(Vulnerability Assessments)",
       },
       {
-        title: "SEO Tech Stack",
+        title: "Fault Tolerance",
         description: "(SSR, Metadata, Structured Data)",
       },
     ],
   },
   {
-    title: "Web & Mobile Apps",
+    title: "Web Engineering",
     description:
-      "A clunky interface can sink even the best ideas. I craft responsive, pixel perfect web and mobile apps (React Native/Flutter) that users love—bridging design and functionality seamlessly.",
+      "Developing robust and scalable frontend systems with maintainable architecture and optimized performance.",
     items: [
       {
-        title: "Cross-Platform Apps",
+        title: "Component Architecture",
         description: "(Single codebase for iOS/Android/Web)",
       },
       {
-        title: "PWAs",
+        title: "API Integration",
         description: "(Offline mode, Push Notifications)",
       },
       {
-        title: "E-Commerce",
+        title: "Browser Optimization",
         description: "(Checkout flows, Payment Gateways, Inventory APIs)",
       },
     ],
