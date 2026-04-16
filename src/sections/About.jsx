@@ -8,12 +8,19 @@ const About = () => {
   const text = `Passionate about clean architecture
     I build scalable, high-performance solutions
     from prototype to production`;
-  const aboutText = `Obsessed with building fast, intuitive apps—from pixel-perfect React UIs to bulletproof serverless backends. Every line of code is a promise: quality that users feel.
-  When I’m not shipping:
-⚡️ Open-sourcing my latest experiment (or hacking on yours)
-🎥 Teaching devs on Twitch/YouTube—because rising tides lift all ships
-🧗 Rock climbing (problem-solving with real stakes)
-🎸 Strumming chords while CI pipelines pass (multitasking at its finest)`;
+  const aboutText = `Obsessed with building scalable, high-performance web applications—
+turning ideas into polished digital products with clean code and thoughtful architecture.
+Every project I build reflects precision, performance, and user-first design.
+
+When I’m not building:
+
+⚡ Solving DSA and sharpening problem-solving skills
+
+🏏 Playing cricket and embracing team strategy
+
+🎮 Competing in online games under pressure
+
+🎌 Watching anime for stories and inspiration`;
   const imgRef = useRef(null);
   useGSAP(() => {
     gsap.to("#about", {
