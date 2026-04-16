@@ -79,21 +79,21 @@ export const servicesData = [
 ];
 export const projects = [
   {
-    id: 1,
-    name: "Mobile Accessories E-commerce",
-    description:
-      "An online store specializing in phone accessories including cases, chargers, cables, and power banks with MagSafe compatibility.",
-    href: "",
-    image: "/assets/projects/mobile-accessories-store.jpg",
-    bgImage: "/assets/backgrounds/blanket.jpg",
-    frameworks: [
-      { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
-      { id: 3, name: "Node.js" },
-      { id: 4, name: "MongoDB" },
-      { id: 5, name: "Tailwind CSS" },
-    ],
-  },
+  id: 1,
+  name: "Stock Price Predictor",
+  description:
+    "A full-scale AI/ML stock prediction platform that forecasts future stock prices for any company using machine learning models, sentiment analysis, technical indicators, and historical market data with high predictive accuracy.",
+  href: "",
+  image: "/assets/projects/stock_predictor.jpeg",
+  bgImage: "/assets/backgrounds/map.jpg",
+  frameworks: [
+    { id: 1, name: "React" },
+    { id: 2, name: "Next.js" },
+    { id: 3, name: "Python" },
+    { id: 4, name: "XGBoost" },
+    { id: 5, name: "Tailwind CSS" },
+  ],
+},
   {
     id: 2,
     name: "Plant Shop E-commerce",
